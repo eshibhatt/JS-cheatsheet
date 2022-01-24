@@ -38,8 +38,17 @@ const movies={
     }
 }
 
+//making an array of titles
 const title=movies.map(function(movie){
     return movie.title.toUpperCase();
 }
 
+// map function: generates a new array with unique elements of the array passed
 
+const numbers= [1,2,3,4,5]
+numbers.map(function(num)){
+    return num*2
+}
+//whatever the return value from the above func is, map will take that and create a new array
+//it does not change the original array in any way
+//to save the returned array, put it in a variable
